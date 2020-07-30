@@ -1,5 +1,7 @@
-# Notas
+# useFetch
 
-Repositorio que contiene customHooks.
-
-Se crea este repositorio para no tener que volver a escribir código 😅
+Ejemplo de uso:
+```
+	const url = "https://your.enpoint.api/use/me":
+	const { data: null, loading: true, error: null } = useFetch(url);
+```
